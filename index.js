@@ -6,6 +6,7 @@ const toggleClassList = (
   removeShown = true,
   removeOnUnfocus = true,
   ) => {
+  console.log('Test');
   const removeShownItems = () => {
     const itemsToRemove = document.querySelectorAll('.'+className);
     itemsToRemove.forEach((item) => {
@@ -31,4 +32,4 @@ const toggleClassList = (
   }
 };
 
-export default toggleClassList;
+module.exports = toggleClassList;

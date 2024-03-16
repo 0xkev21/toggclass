@@ -1,15 +1,22 @@
 {
-  "name": "toggclass",
+  "name": "togg-class",
   "version": "1.0.0",
   "description": "A package for toggling class name of elements for styling purposes",
-  "main": "toggleClassList.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0xkev21/toggclass.git"
   },
   "keywords": [
-    "javascript",
-    "classList"
+    "classlist"
   ],
   "author": "Kev",
-  "license": "MIT"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0xkev21/toggclass/issues"
+  },
+  "homepage": "https://github.com/0xkev21/toggclass#readme"
 }
